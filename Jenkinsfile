@@ -54,7 +54,7 @@ pipeline {
 			steps{
 				//docker build -t myjenkins/jenkinsmicroService:$env.BUILD_TAG
 				script{
-					dockerImage = docker.build("jenkinservice/jenkinsmicroService:$env.BUILD_TAG")
+					dockerImage = docker.build("jenkinservice/jenkinsmicroservice:$env.BUILD_TAG")
 				}
 			}
 		}
