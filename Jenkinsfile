@@ -1,5 +1,5 @@
 //SCRIPTED
-
+//A
 
 //DECLARATIVE 
 
@@ -83,6 +83,5 @@ pipeline {
 			echo 'I run when you fail'
 		}
 		//unstable: When the test failure happens
-		//Changed : 
 	}
 }
